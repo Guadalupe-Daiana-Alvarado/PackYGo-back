@@ -1,4 +1,7 @@
 import Product from "../Product.js"; // Asegúrate de importar el modelo de producto
+import Category from "../Category.js"
+import 'dotenv/config.js';
+import '../../config/database.js';
 
 
 const products = [
@@ -281,12 +284,28 @@ const products = [
   
 ];
 
-products.forEach(async (productData) => {
-  const product = new Product(productData);
-  try {
-    await product.save();
-    console.log(`Producto ${product.name} guardado en la base de datos`);
-  } catch (error) {
-    console.log(`Error al intentar guardar el producto ${product.name}: ${error}`);
+async function loadProducts() {
+  for (const productData of products) {
+    try {
+      // Buscar el ObjectId de la categoría correspondiente
+      const category = await Category.findOne({ name: productData.category });
+
+      if (category) {
+        // Asignar el ObjectId de la categoría al producto
+        productData.category = category._id;
+
+        // Crear un nuevo producto y guardarlo en la base de datos
+        const product = new Product(productData);
+        await product.save();
+        console.log(`Producto ${product.name} guardado en la base de datos`);
+      } else {
+        console.log(`La categoría '${productData.category}' no se encontró en la base de datos.`);
+      }
+    } catch (error) {
+      console.log(`Error al intentar guardar el producto ${productData.name}: ${error}`);
+    }
   }
-});
+}
+
+// Llama a la función para cargar los productos
+loadProducts();

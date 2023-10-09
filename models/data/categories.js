@@ -1,4 +1,6 @@
 import Category from "../Category.js";
+import 'dotenv/config.js';
+import '../../config/database.js';
 
 let categories = [
   {
