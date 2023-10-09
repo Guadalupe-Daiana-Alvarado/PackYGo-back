@@ -7,10 +7,9 @@ let productSchema = new Schema ({
   price: {type:Number, required:true},
   description: {type:String, required:true},
   stock: {type:Number, required:true },
-  images:{type:String, required:true},
-  categories:{type:Types.ObjectId, ref:"Category", required:true},
-  color: {type:"String"}
-
+  photo:{type:String, required:true},
+  category:{type:Types.ObjectId, ref:"Category", required:true}
+  
 })
 
 let Product = model(productCollection,productSchema)

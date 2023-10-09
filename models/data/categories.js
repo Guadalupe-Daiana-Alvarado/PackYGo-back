@@ -1,35 +1,30 @@
-import Category from "../Category";
+import Category from "../Category.js";
 
 let categories = [
   {
-    name:"books"
-    
+    name: "suitcases"
   },
   {
-    name:"padlocks"
-    
+    name: "backpacks"
   },
   {
-    name:"suitcases"
-    
+    name: "accesories"
   },
   {
-    name:"backpacks"
-    
+    name: "waistpacks"
   },
   {
-    name:"maps"
-    
-  },
-  {
-    name:"micelane"
-    
-  },
-]
+    name: "pets"
+  }
+];
 
-/* 
-
-suitcases:{type:"string"},
-backpacks:{type:"string"},
-maps:{type:"string"},
-micelane: {type:"string"}, *
+categories.forEach(async (categoryData) => {
+  try {
+      const category = new Category(categoryData);
+      await category.save();
+      console.log(`Categoría ${category.name} guardada en la base de datos`);
+    
+  } catch (error) {
+    console.log(`Error al intentar guardar la categoría ${categoryData.name}: ${error}`);
+  }
+});

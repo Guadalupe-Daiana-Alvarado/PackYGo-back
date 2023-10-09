@@ -1,5 +1,5 @@
-import mongoose from "mongoose";
-import {Schema,Types,model} from mongoose
+
+import {Schema,Types,model} from "mongoose"
 
 let categoryCollection = "categories";
 
