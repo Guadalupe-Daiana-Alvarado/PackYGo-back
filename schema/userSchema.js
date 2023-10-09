@@ -1,5 +1,4 @@
 import Joi from "joi";
-//import joiOid from "joi-oid";
 
 const userSchema = Joi.object({
     email: Joi.string().required().email().messages({
