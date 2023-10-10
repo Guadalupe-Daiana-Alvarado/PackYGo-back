@@ -6,6 +6,7 @@ import logger from 'morgan';
 import indexRouter from './routes/index.js';
 import usersRouter from './routes/users.js';
 import 'dotenv/config.js';
+import './config/database.js'
 
 let app = express();
 
@@ -37,6 +38,8 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
+
 
 import { __dirname } from './utils.js'
 import { __filename } from './utils.js'
