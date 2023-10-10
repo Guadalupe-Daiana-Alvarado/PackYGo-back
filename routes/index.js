@@ -1,9 +1,7 @@
 import express from 'express';
+import productsRouter from './products.js';
 let router = express.Router();
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+router.use('/products', productsRouter)
 
 export default router;
