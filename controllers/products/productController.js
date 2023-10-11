@@ -8,9 +8,10 @@ export const getAllProducts = async (req, res) => {
       console.log('REQEEEE',req.query.name)
       filters.name = new RegExp(req.query.name, 'i'); 
     }
-
+    if (req.query.category) filters['category_id'] = req.query.category.split(",");
+   console.log('holiiiii',req.query._id)
     // Consulta los productos con los filtros aplicados
-    const products = await Product.find(filters);
+    const products = await Product.find(filters).populate("category", "name");
 
     res.status(200).json({
       products: products

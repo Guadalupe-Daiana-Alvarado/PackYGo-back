@@ -1,5 +1,4 @@
-import mongoose from "mongoose"
-import {Schema,model,Types} from mongoose
+import {Schema,model,Types,mongoose} from "mongoose"
 
 let cartCollection = "cart"
 

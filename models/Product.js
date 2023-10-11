@@ -1,4 +1,5 @@
 import {Schema,model,Types }from "mongoose";
+import Category from "../models/Category.js";
 
 let productCollection = "products"
 
@@ -8,7 +9,10 @@ let productSchema = new Schema ({
   description: {type:String, required:true},
   stock: {type:Number, required:true },
   photo:{type:String, required:true},
-  category:{type:Types.ObjectId, ref:"Category", required:true}
+  category:{
+    type:Types.ObjectId,
+    ref:Category, 
+    required:true}
   
 })
 
