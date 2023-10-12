@@ -2,7 +2,7 @@ import jwt from 'jsonwebtoken';
 
 export const requireAuth = (req, res, next) => {
   const token = req.headers.Authorization; // Otra forma de enviar el token, como en el encabezado
-  console.log(req.headers.Authorization);
+  console.log("header authorization",req.headers.Authorization);
 
 
   if (token) {
