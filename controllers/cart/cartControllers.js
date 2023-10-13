@@ -71,4 +71,45 @@ export const getCart = async (req, res) => {
   }
 };
 
+export const removeFromCart = async (req, res) => {
+  try {
+    const { userId, productId } = req.body;
 
+    // Encuentra el carrito del usuario
+    let cart = await Cart.findOne({ user: userId });
+
+    if (!cart) {
+      return res.status(404).json({
+        message: 'El carrito del usuario no existe',
+        success: false,
+      });
+    }
+
+    // Busca si el producto está en el carrito
+    const existingProductIndex = cart.products.findIndex(
+      (productItem) => productItem.product == productId
+    );
+
+    if (existingProductIndex !== -1) {
+      // Si el producto está en el carrito, elimínalo
+      cart.products.splice(existingProductIndex, 1);
+      await cart.save();
+
+      return res.status(200).json({
+        message: 'Producto eliminado del carrito exitosamente',
+        cart: cart,
+        success: true,
+      });
+    } else {
+      return res.status(404).json({
+        message: 'El producto no está en el carrito',
+        success: false,
+      });
+    }
+  } catch (error) {
+    res.status(500).json({
+      error: 'Error al eliminar el producto del carrito',
+      errorMessage: error.message,
+    });
+  }
+};
