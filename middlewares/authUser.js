@@ -1,24 +1,24 @@
 import jwt from 'jsonwebtoken';
 
 export const requireAuth = (req, res, next) => {
-  const token = req.headers.Authorization; // Otra forma de enviar el token, como en el encabezado
-  console.log("header authorization",req.headers.Authorization);
+  const token = req.headers.authorization;
 
-
-  if (token) {
-    jwt.verify(token, process.env.SECRET, (err, decodedToken) => {
-      if (err) {
-        // Agrega un registro de error para ver los detalles del error
-        console.error('Error al verificar el token:', err);
-        res.status(401).json({ error: 'Token inválido' });
-      } else {
-        req.userId = decodedToken.userId;
-        next();
-      }
-    });
-  } else {
-    // Agrega un registro de información para mostrar que se requiere autenticación
-    console.log('Se requiere autenticación');
-    res.status(401).json({ error: 'Se requiere autenticación' });
+  if (!token) {
+    return res.status(401).json({ error: 'Token no proporcionado' });
   }
+
+  // Verificar el token
+  jwt.verify(token.split(' ')[1], process.env.SECRET, (err, decodedToken) => {
+    if (err) {
+      console.error('Error al verificar el token:', err);
+      return res.status(401).json({ error: 'Token inválido' });
+    }
+
+    // El token es válido, establecer el usuario en req.user con el ID del usuario
+    req.user = {
+      email: decodedToken.email // Agrega otros datos del usuario si es necesario
+    };
+
+    next();
+  });
 };
