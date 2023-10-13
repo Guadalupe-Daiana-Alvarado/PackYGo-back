@@ -44,9 +44,9 @@ export const addToCart = async (req, res) => {
 
 export const getCart = async (req, res) => {
   try {
-    const userId = req.user._idid; // Obtén el correo electrónico del usuario desde el token
-    // Realiza una búsqueda para obtener el ID de usuario
-    const user = await User.findOne({ id: userId });
+    const userEmail = req.user.email; 
+    console.log("email del usuario",userEmail)
+    const user = await User.findOne({ email:userEmail });
 
     if (!user) {
       return res.status(404).json({ message: 'El usuario no existe', success: false });
