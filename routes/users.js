@@ -7,9 +7,10 @@ import signIn from '../controllers/login/login.js';
 import passwordBcript from '../middlewares/passwordBcript.js';
 import accountNotExist from '../middlewares/accountNotExist.js';
 import generateToken from '../middlewares/generateToken.js';
+import { requireAuth } from '../middlewares/authUser.js';
 let router = express.Router();
 
 router.post('/register',validator(userSchema),hasheador , signUp);
-router.post('/login', accountNotExist, passwordBcript, generateToken, signIn);
+router.post('/login', accountNotExist, passwordBcript, generateToken,signIn,);
 
 export default router;
