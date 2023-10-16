@@ -3,8 +3,9 @@ import Product from "../../models/Product.js";
 async function deleteProduct(req, res, next) {
     try {
         console.log(req.params);
-        const { id } = req.params;
-        const product = await Product.findById(id);
+        const { _id } = req.params;
+        console.log('mmm',_id)
+        const product = await Product.findById(_id);
         if (!product) {
             return res.status(404).json({
                 success: false,
@@ -12,7 +13,7 @@ async function deleteProduct(req, res, next) {
                 message: "Product not found",
             });
         }
-        await Product.findByIdAndDelete(id);
+        await Product.findByIdAndDelete(_id);
         return res.status(200).json({
             success: true,
             response: product,

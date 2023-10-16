@@ -1,6 +1,7 @@
 import Product from "../../models/Product.js";
 
 async function createProduct(req, res, next) {
+  console.log('porfiiiiiiiiiiiiiiii',req.body)
   try {
     const newProduct = new Product(req.body);
     await newProduct.save();
@@ -15,6 +16,7 @@ async function createProduct(req, res, next) {
       response: null,
       message: err.message,
     });
+    console.log(err)
   }
 }
 export default createProduct;
