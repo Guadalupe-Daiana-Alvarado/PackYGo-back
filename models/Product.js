@@ -8,7 +8,7 @@ let productSchema = new Schema ({
   price: {type:Number, required:true},
   description: {type:String, required:true},
   stock: {type:Number, required:true },
-  quanty: {type:Number, required:true },
+  quanty: {type:Number, required:false },
   photo:{type:String, required:true},
   category:{
     type:Types.ObjectId,
