@@ -17,7 +17,7 @@ const products = [
   },
   {
     name: "Travelpro Platinum Elite Suitcase ",
-    photo:"https://m.media-amazon.com/images/I/816mZi83UDL._AC_SX425_.jpg",
+    photo:"https://firebasestorage.googleapis.com/v0/b/fir-multer-822ac.appspot.com/o/packYgo%2Fmaleta2.png?alt=media&token=0be5c85e-a2ba-4797-8599-cc8486c7f139&_gl=1*tbaosg*_ga*MTMxNzQ3ODEwMS4xNjk1NjY2NTIx*_ga_CW55HF8NVT*MTY5NzY2MTcyMy40NC4xLjE2OTc2NjUwOTUuNjAuMC4w",
     description: "This luggage has PrecisionGlide System that delivers precise control and effortless roll on eight MagnaTrac self-aligning spinner wheels led by a height-adjustable PowerScope handle with comfortable Contour Grip. Suitcase Case Dimensions: 25 in x 18 in x 11.25 in, Overall Dimensions ( includes wheels & carry handles): 28 in x 18.5 in x 11.75 in, Weight: 9.8 lbs, Volume: 97 L.",
     price: 365,
     category: "suitcases",
@@ -53,7 +53,7 @@ const products = [
   },
   {
     name: "Suitcase Samsonite Solyte DLX",
-    photo:"https://m.media-amazon.com/images/I/71Sw7EnGo-L._AC_SX425_.jpg",
+    photo:"https://firebasestorage.googleapis.com/v0/b/fir-multer-822ac.appspot.com/o/packYgo%2Fmaleta3.png?alt=media&token=867f299b-1244-44ef-8d50-1dc026139148&_gl=1*1vs12em*_ga*MTMxNzQ3ODEwMS4xNjk1NjY2NTIx*_ga_CW55HF8NVT*MTY5NzY2MTcyMy40NC4xLjE2OTc2NjUxMDUuNTAuMC4w",
     description: "Introducing Aspire DLX, the collection that offers the most essential and top rated Samsonite features, so you can pack your way, while maximizing capacity.",
     price: 116,
     category: "suitcases",
@@ -62,7 +62,7 @@ const products = [
   },
   {
     name: "Matein Travel Laptop Backpack",
-    photo:"https://m.media-amazon.com/images/I/81L8quiJXhL._AC_SY450_.jpg",
+    photo:"https://firebasestorage.googleapis.com/v0/b/fir-multer-822ac.appspot.com/o/packYgo%2Fa.png?alt=media&token=17648bef-f34f-4eaf-abcc-9b846920ae5a&_gl=1*1f3nwjw*_ga*MTMxNzQ3ODEwMS4xNjk1NjY2NTIx*_ga_CW55HF8NVT*MTY5NzY2MTcyMy40NC4xLjE2OTc2NjQ5NDMuNjAuMC4w",
     description: "LOTS OF STORAGE SPACE&POCKETS: One separate laptop compartment hold 15.6 Inch Laptop as well as 15 Inch,14 Inch and 13 Inch Laptop. One spacious packing compartment roomy for daily necessities,tech electronics accessories. Front compartment with many pockets, pen pockets and key fob hook, makes your items organized and easier to find.",
     price: 29,
     category: "backpacks",
@@ -71,7 +71,7 @@ const products = [
   },
   {
     name: "LOVEVOOK Laptop Backpack",
-    photo:"https://m.media-amazon.com/images/I/71cv03B5ksL._AC_SX425_.jpg",
+    photo:"https://firebasestorage.googleapis.com/v0/b/fir-multer-822ac.appspot.com/o/packYgo%2Fb.png?alt=media&token=4ee35c4f-f6d8-41c6-8812-281ce3ab13c3&_gl=1*1d2qwhk*_ga*MTMxNzQ3ODEwMS4xNjk1NjY2NTIx*_ga_CW55HF8NVT*MTY5NzY2MTcyMy40NC4xLjE2OTc2NjQ5NzEuMzIuMC4w",
     description: "Multi compartments. Total 4 compartments: 1 separate laptop compartment, 1 main compartment and 2 front compartments provide multi-functional for your computer, A4 folder, books, clothes, etc.",
     price: 30,
     category: "backpacks",
@@ -107,7 +107,7 @@ const products = [
   },
   {
     name: "ProEtrade Backpack",
-    photo:"https://m.media-amazon.com/images/I/91zm11ULu7L._AC_UY500_.jpg",
+    photo:"https://firebasestorage.googleapis.com/v0/b/fir-multer-822ac.appspot.com/o/packYgo%2Fc.png?alt=media&token=eea34ceb-b5a4-4fde-8fa7-d34a7c511b12&_gl=1*1ej2bwq*_ga*MTMxNzQ3ODEwMS4xNjk1NjY2NTIx*_ga_CW55HF8NVT*MTY5NzY2MTcyMy40NC4xLjE2OTc2NjUwMzguNTQuMC4w",
     description: "Large capacity & and multi compartments. Total 9 pockets, 2 main compartment, 1 laptop compartment, 2 front zipped pocket, both side water bottle pockets for holding water bottles or umbrellas, 1 inner pockets for keys, pen or small accessories, 1 anti theft pocket for protect your belongings, 1 glasses pocket & mesh pocket on straps, the multi pocket & compartments keep your things organized.",
     price: 35,
     category: "backpacks",
@@ -153,7 +153,7 @@ const products = [
   },
   {
     name: "Cotopaxi Allpa X 4 L Waist Pack",
-    photo:"https://www.rei.com/product/206706/cotopaxi-allpa-x-4-l-hip-pack",
+    photo:"https://m.media-amazon.com/images/I/41C7BChOpIL.__AC_SX300_SY300_QL70_FMwebp_.jpg",
     description: "Perfect for a life in transit, the Allpa X offers comfortable carry around your hip or worn crossbody. Main compartment features a 2-way zipper. Butterfly-style opening for easy access.",
     price: 75,
     category: "waistpacks",
@@ -171,7 +171,7 @@ const products = [
   },
   {
     name: "10 Pack Luggage Tag",
-    photo:"https://m.media-amazon.com/images/I/71DnuTYC5hL._AC_SX425_.jpg",
+    photo:"https://firebasestorage.googleapis.com/v0/b/fir-multer-822ac.appspot.com/o/packYgo%2F1.png?alt=media&token=292d8331-128c-42c1-b5b1-1271b46d65e9&_gl=1*ezgfjx*_ga*MTMxNzQ3ODEwMS4xNjk1NjY2NTIx*_ga_CW55HF8NVT*MTY5NzY2MTcyMy40NC4xLjE2OTc2NjQwNDAuNjAuMC4w",
     description: "The color of the travel tag is very eye-catching, and you can see your luggage from a distance. Made of the highest quality rigid PVC material, it can prevent bending, breaking and tearing.",
     price: 6,
     category: "accesories",
@@ -180,7 +180,7 @@ const products = [
   },
   {
     name: "EPICKA Universal Travel Adapter",
-    photo:"https://m.media-amazon.com/images/I/61cE3xIDSXL._AC_SX425_.jpg",
+    photo:"https://firebasestorage.googleapis.com/v0/b/fir-multer-822ac.appspot.com/o/packYgo%2F2.png?alt=media&token=2702e563-1615-4c10-a0b8-e9ef2821a7ee&_gl=1*1wkc0j5*_ga*MTMxNzQ3ODEwMS4xNjk1NjY2NTIx*_ga_CW55HF8NVT*MTY5NzY2MTcyMy40NC4xLjE2OTc2NjQ2MDEuNDcuMC4w",
     description: "WORLDWIDE ADAPTER - Our all-in-one adapter is equipped with 4 different plug types that could plug into the sockets of 200+ countries and regions: Type C (most popular type) for use in most of Europe, including France, Germany, Italy, Spain, Iceland, Greece, and many other countries.",
     price: 30,
     category: "accesories",
@@ -189,7 +189,7 @@ const products = [
   },
   {
     name: "LeanTravel Compression Packing Cubes",
-    photo:"https://m.media-amazon.com/images/I/A1J6P+IIgiL._AC_SX425_.jpg",
+    photo:"https://firebasestorage.googleapis.com/v0/b/fir-multer-822ac.appspot.com/o/packYgo%2F3.png?alt=media&token=b5189a0b-1253-4fe8-892d-1280d1610a32&_gl=1*1ox0iir*_ga*MTMxNzQ3ODEwMS4xNjk1NjY2NTIx*_ga_CW55HF8NVT*MTY5NzY2MTcyMy40NC4xLjE2OTc2NjQ2MzIuMTYuMC4w",
     description: "STYLISH, WRINKLE-FREE PACKING thanks to our premium quality polyester fabric and sturdy construction with durable mesh; Clothes can be seen through an inspection and odors are minimized thanks to increased breathability.",
     price: 45,
     category: "accesories",
@@ -198,7 +198,7 @@ const products = [
   },
   {
     name: "LeanTravel Compression Packing Cubes",
-    photo:"https://m.media-amazon.com/images/I/A1J6P+IIgiL._AC_SX425_.jpg",
+    photo:"https://firebasestorage.googleapis.com/v0/b/fir-multer-822ac.appspot.com/o/packYgo%2F3.png?alt=media&token=b5189a0b-1253-4fe8-892d-1280d1610a32&_gl=1*1ox0iir*_ga*MTMxNzQ3ODEwMS4xNjk1NjY2NTIx*_ga_CW55HF8NVT*MTY5NzY2MTcyMy40NC4xLjE2OTc2NjQ2MzIuMTYuMC4w",
     description: "STYLISH, WRINKLE-FREE PACKING thanks to our premium quality polyester fabric and sturdy construction with durable mesh; Clothes can be seen through an inspection and odors are minimized thanks to increased breathability.",
     price: 45,
     category: "accesories",
@@ -207,7 +207,7 @@ const products = [
   },
   {
     name: " Travel Cable Organizer",
-    photo:"https://m.media-amazon.com/images/I/81hLyL0rX2S._AC_SX425_.jpg",
+    photo:"https://firebasestorage.googleapis.com/v0/b/fir-multer-822ac.appspot.com/o/packYgo%2F4.png?alt=media&token=3ec6a0a0-12ab-4af1-a62b-96d904835217&_gl=1*8e3rc2*_ga*MTMxNzQ3ODEwMS4xNjk1NjY2NTIx*_ga_CW55HF8NVT*MTY5NzY2MTcyMy40NC4xLjE2OTc2NjQ2NjEuNTQuMC4w",
     description: "Compact size and lightweight make it easy to carry and put into your backpack, handbags or laptop bag without taking much space. Suitable for family use and daily organization.",
     price: 9,
     category: "accesories",
@@ -216,7 +216,7 @@ const products = [
   },
   {
     name: "Passport Holder Neck",
-    photo:"https://m.media-amazon.com/images/I/71Jve2P0eCL._AC_UX522_.jpg",
+    photo:"https://firebasestorage.googleapis.com/v0/b/fir-multer-822ac.appspot.com/o/packYgo%2F5.png?alt=media&token=5ff1ed55-35c8-4117-b360-2397c20c228d&_gl=1*ilt41j*_ga*MTMxNzQ3ODEwMS4xNjk1NjY2NTIx*_ga_CW55HF8NVT*MTY5NzY2MTcyMy40NC4xLjE2OTc2NjQ3MTAuNS4wLjA.",
     description: "PERFECT FOR TRAVEL - COMFORTABLE, LIGHTWEIGHT, AND WATER RESISTANT PASSPORT AND VACCINE CARD HOLDER designed to offer you a safe and secure location to store valuables , passports, and credit cards.",
     price: 18,
     category: "accesories",
@@ -225,7 +225,7 @@ const products = [
   },
   {
     name: "URBEST Luggage Cover Protector",
-    photo:"https://m.media-amazon.com/images/I/61r8MM04o6L._AC_SY550_.jpg",
+    photo:"https://firebasestorage.googleapis.com/v0/b/fir-multer-822ac.appspot.com/o/packYgo%2F6.png?alt=media&token=2a44af35-3144-4d78-8e69-bf839ecabdde&_gl=1*1xi4xlx*_ga*MTMxNzQ3ODEwMS4xNjk1NjY2NTIx*_ga_CW55HF8NVT*MTY5NzY2MTcyMy40NC4xLjE2OTc2NjQ3NTEuNTIuMC4w",
     description: "Head-to-toe Protection: Perfectly tailored for almost all suitcases, the luggage cover provides protection from all the dirt, scuffs, and scratches that usually come with checking luggage when traveling – ensuring your suitcase arrives as clean as the day it departs.",
     price: 16,
     category: "accesories",
@@ -234,7 +234,7 @@ const products = [
   },
   {
     name: "Digital Luggage Scale",
-    photo:"https://m.media-amazon.com/images/I/61ledwy+gcL._AC_SX425_.jpg",
+    photo:"https://firebasestorage.googleapis.com/v0/b/fir-multer-822ac.appspot.com/o/packYgo%2F7.png?alt=media&token=c3076578-91dc-487e-8b74-33cd73547a75&_gl=1*rrd1v8*_ga*MTMxNzQ3ODEwMS4xNjk1NjY2NTIx*_ga_CW55HF8NVT*MTY5NzY2MTcyMy40NC4xLjE2OTc2NjQ3ODcuMTYuMC4w",
     description:" PRECISION ACCURACY. Capacity: 110lb / 50kg, Graduation: 0.1lb / 50g, Unit: lb / kg /oz / g. EASY TO READ - Auto-off functions , auto-lock display. Long life lithium battery included.",
     price: 9,
     category: "accesories",
@@ -252,7 +252,7 @@ const products = [
   },
   {
     name: "Newbealer Travel Iron",
-    photo:"https://m.media-amazon.com/images/I/71T1xLQwXEL._AC_SX522_.jpg",
+    photo:"https://firebasestorage.googleapis.com/v0/b/fir-multer-822ac.appspot.com/o/packYgo%2F8.png?alt=media&token=a3f2cbab-111c-4276-9237-4ff2306af9fd&_gl=1*o8sxz2*_ga*MTMxNzQ3ODEwMS4xNjk1NjY2NTIx*_ga_CW55HF8NVT*MTY5NzY2MTcyMy40NC4xLjE2OTc2NjQ4NjYuNjAuMC4w",
     description:"The mini iron is designed with a dual-voltage switch, which allows you to bring it anywhere worldwide. 300 watts of power removes wrinkles from almost any fabric for photo-worthy outfits.",
     price: 23,
     category: "accesories",
@@ -261,7 +261,7 @@ const products = [
   },
   {
     name: "SUPFINE 2 Pack Waterproof Phone Pouch",
-    photo:"https://m.media-amazon.com/images/I/71bsAu+tF+L._AC_SX679_.jpg",
+    photo:"https://firebasestorage.googleapis.com/v0/b/fir-multer-822ac.appspot.com/o/packYgo%2F9.png?alt=media&token=ea193d39-b853-4272-94e7-64d80cac5620&_gl=1*111xx5f*_ga*MTMxNzQ3ODEwMS4xNjk1NjY2NTIx*_ga_CW55HF8NVT*MTY5NzY2MTcyMy40NC4xLjE2OTc2NjQ4OTcuMjkuMC4w",
     description:"Display Universal Size 9 inches floating bag capacity fits all smartphones-Compatible. IPX8 certified professional floating waterproof cell phone pouch is specially designed for outdoor activities.",
     price: 15,
     category: "accesories",
@@ -270,7 +270,7 @@ const products = [
   },
   {
     name: "Dog Water/Food Bottle",
-    photo:"https://m.media-amazon.com/images/I/81gEQ3fdLnL._AC_SX679_.jpg",
+    photo:"https://firebasestorage.googleapis.com/v0/b/fir-multer-822ac.appspot.com/o/packYgo%2F10.png?alt=media&token=3c9f5a13-bb8e-4d9f-95e9-57eb8705686d&_gl=1*hqxnha*_ga*MTMxNzQ3ODEwMS4xNjk1NjY2NTIx*_ga_CW55HF8NVT*MTY5NzY2MTcyMy40NC4xLjE2OTc2NjQ1MDkuNjAuMC4w",
     description:"Avelora water bottle can hold max 19 ounces (550 ml) of water and 100 g food. It not only ensures dog drinking water easily but also cat, rabbit or other small pet to drinking water easily.",
     price: 17,
     category: "pets",
@@ -279,7 +279,7 @@ const products = [
   },
   {
     name: " Pet Travel Carrier",
-    photo:"https://m.media-amazon.com/images/I/91Y6h3kNrxL._AC_SY879_.jpg",
+    photo:"https://firebasestorage.googleapis.com/v0/b/fir-multer-822ac.appspot.com/o/packYgo%2F11.png?alt=media&token=5df1faa6-4e61-4dcc-a126-4bfbda2c516d&_gl=1*1ui917x*_ga*MTMxNzQ3ODEwMS4xNjk1NjY2NTIx*_ga_CW55HF8NVT*MTY5NzY2MTcyMy40NC4xLjE2OTc2NjQ1NTYuMTMuMC4w",
     description:"Recommended max load of 8 lbs (3.6 kg). Please do not choose your carrier based on weight--please reference your pet's length and height in selecting a carrier size.",
     price: 29,
     category: "pets",
@@ -297,7 +297,7 @@ const products = [
   },
   {
     name: "Dog Travel Bag",
-    photo:"https://m.media-amazon.com/images/I/81m4psVSrpL._AC_SX679_.jpg",
+    photo:"https://firebasestorage.googleapis.com/v0/b/fir-multer-822ac.appspot.com/o/packYgo%2F12.png?alt=media&token=7196a7e6-9f28-4e6a-ae72-ce9ae97bafb8&_gl=1*1c7xql1*_ga*MTMxNzQ3ODEwMS4xNjk1NjY2NTIx*_ga_CW55HF8NVT*MTY5NzY2MTcyMy40NC4xLjE2OTc2NjQ1ODguNjAuMC4w",
     description:"Large Capacity and Functional:This pet travel bag has a large inner compartment to store pet treats, toys, and other pet supplies for dogs and cats!Comes with multiple functional pockets and built-in adjustable flap to stay flexible and organized.Enough storage space for all your pet's essentials.",
     price: 34,
     category: "pets",
